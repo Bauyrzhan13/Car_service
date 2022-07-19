@@ -1,0 +1,73 @@
+.services {
+  background: #f5f5f5;
+}
+
+.service-inner {
+  padding: 100px 0;
+}
+
+.service-header {
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.service-header h5 {
+  color: #c00113;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  letter-spacing: 0.7px;
+  text-transform: capitalize;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.service-header h2 {
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 38px;
+  line-height: 1.3;
+  color: #333;
+}
+
+.service-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  width: calc(50% - 30px);
+  padding: 10px;
+}
+
+.menu-description {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed #dbdbdb;
+}
+
+.menu-description p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  color: #555;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+}
+
+.menu-description .cost {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  color: #c00113;
+  text-transform: capitalize;
+}
+
+.menu-title {
+  color: #c00113;
+  text-decoration: none;
+  transition: 0.3s;
+  box-sizing: border-box;
+  font-family: "Anton", sans-serif;
+  line-height: 1.5;
+  font-size: 24px;
+}

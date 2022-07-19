@@ -1,0 +1,42 @@
+.partners-header {
+  text-align: center;
+}
+
+.partners-inner {
+  max-width: 100%;
+}
+
+.partner-item img {
+  width: 160px;
+  height: 100px;
+}
+
+.partners-header h5 {
+  color: #c00113;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  letter-spacing: 0.7;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.partners-header h2 {
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 38px;
+  line-height: 1.3;
+  color: #000;
+  margin-bottom: 70px;
+}
+
+.partners-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.partner-item {
+  text-align: center;
+  /* border: 5px solid #c0011382; */
+  border-radius: 10px;
+}

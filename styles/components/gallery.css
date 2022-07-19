@@ -1,0 +1,160 @@
+.gallery {
+  background: #f8f9fa;
+}
+
+.gallery-header {
+  text-align: center;
+}
+
+.gallery-header h5 {
+  color: #c00113;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  letter-spacing: 0.7px;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.gallery-header h2 {
+  font-weight: 400;
+  font-size: 38px;
+  text-transform: capitalize;
+  line-height: 1.3;
+  color: #333;
+  margin: 0;
+  font-family: "Anton", sans-serif;
+}
+
+.gallery-list {
+  color: #333;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.gallery-nav {
+  display: flex;
+  justify-content: center;
+  margin: 75px 0px 25px;
+}
+
+.gallery-nav .gallery-name {
+  display: inline-block;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin: 0 5px;
+  padding: 8px 25px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all 0.5s;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.gallery-nav .gallery-name:hover {
+  color: #fff;
+  background-color: #c00113;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.gallery-nav .gallery-name-active {
+  color: #fff;
+  background-color: #c00113;
+  padding: 8px 25px;
+  border-radius: 3px;
+  font-family: "Source Sans Pro", sans-serif;
+  cursor: pointer;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.gallery-item .img-size {
+  width: 255px;
+  height: 223px;
+  margin: 0px 15px 30px;
+  border-radius: 3px;
+}
+
+.view-gallery-button {
+  margin-top: 30px;
+  text-align: center !important;
+}
+
+.click-button .button {
+  border-color: #c00113;
+  color: #c00113;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  padding: 15px 35px;
+  text-align: center;
+  font-size: 15px;
+  text-transform: capitalize;
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-weight: 400;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  background-color: none;
+  margin-top: 25px;
+  cursor: pointer;
+  font-family: "Source Sans Pro", sans-serif;
+  transition: 0.5s;
+}
+
+.click-button .button:hover {
+  color: #fff;
+  background-color: #c00113;
+}
+
+.modal-window {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content {
+  width: 700px;
+  height: 400px;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content button {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+.active {
+  display: flex;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.gallery-item img {
+  width: 30%;
+  width: 400px;
+  height: 400px;
+}

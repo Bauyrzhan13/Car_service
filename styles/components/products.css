@@ -1,0 +1,145 @@
+.products {
+  background-image: url("../../images/products-bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.products::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.products .container {
+  position: relative;
+  z-index: 1;
+}
+
+.product-inner {
+  padding: 100px 0;
+}
+
+.product-header {
+  text-align: center;
+}
+
+.product-header h5 {
+  color: #c00113;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  letter-spacing: 0.7;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.product-header h2 {
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 38px;
+  line-height: 1.3;
+  color: #fff;
+  margin-bottom: 70px;
+}
+
+.product-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-item {
+  position: relative;
+  display: block;
+}
+
+.shop-ribbon {
+  position: absolute;
+  margin-top: 30px;
+  background: linear-gradient(-90deg, #dc3545 0%, #ba1625 100%);
+  padding: 13px 37px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  z-index: 2;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.product-item-details {
+  padding: 45px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.product-item-details h3 {
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-family: "Anton", sans-serif;
+  color: #333;
+  line-height: 1.5;
+}
+.product-item-details .item-price {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #c00113;
+  font-size: 18px;
+  font-weight: 400;
+  display: block;
+  margin-top: 10px;
+}
+
+.product-item-details .item-price del {
+  padding-right: 10px;
+  color: #ff9800;
+  text-decoration: line-through;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.item-add-to-cart .cart {
+  text-align: center;
+  z-index: 1;
+  /* transform: translateX(-50%); */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.item-image {
+  position: relative;
+}
+
+.item-add-to-cart {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.cart-link {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 50%;
+  text-decoration: none !important;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 5px;
+  transition: 0.3s;
+}
+
+.cart-link:hover {
+  color: red;
+}
+
+.product-item:hover .item-add-to-cart {
+  opacity: 1;
+  bottom: 20px;
+}
